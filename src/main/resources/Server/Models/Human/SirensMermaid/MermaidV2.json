@@ -1,0 +1,155 @@
+{
+  "Parent": "MermaidPlayer",
+  "Model": "Characters/SirensMermaid/Mermaidv2.blockymodel",
+  "Texture": "Characters/SirensMermaid/MermaidTextures/MermaidTextureV2.png",
+  "AnimationSets": {
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Idle.blockyanim",
+          "Speed": 0.35
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swimv3.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Fastv2.blockyanim",
+          "SoundEventId": "SFX_Player_Swim_Fast",
+          "Speed": 1.05
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Backward.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 1.05
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Sink.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.45
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Divev2.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Dive_Fastv2.blockyanim",
+          "SoundEventId": "SFX_Player_Swim_Fast",
+          "Speed": 1.05
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Backward.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 1.15
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Swim_Floatv2.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.55
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Fluid_Walkv4.blockyanim",
+          "Speed": 1.35
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Fluid_Run.blockyanim",
+          "Speed": 1.25
+        }
+      ]
+    }
+  },
+  "FluidSprint": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Swim/Mermaidv2_Fluid_Sprint.blockyanim",
+        "Speed": 1.35
+      }
+    ]
+  },
+  "Sleep": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Flavor/Sleep.blockyanim"
+      }
+    ]
+  },
+  "Sleep2": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Flavor/Sleep2.blockyanim"
+      }
+    ]
+  },
+  "Sit": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Flavor/Sit.blockyanim",
+        "Looping": true,
+        "Speed": 0.5
+      }
+    ]
+  },
+  "Sit2": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Flavor/Sit2.blockyanim",
+        "Looping": true,
+        "Speed": 0.5
+      }
+    ]
+  },
+  "SitGround": {
+    "Animations": [
+      {
+        "Animation": "Characters/SirensMermaid/Animations/Mermaids/Flavor/Sit_Ground.blockyanim",
+        "Looping": true,
+        "Speed": 0.5
+      }
+    ]
+  },
+  "Light": {
+    "Radius": 33
+  }
+}
